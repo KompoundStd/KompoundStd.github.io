@@ -8,11 +8,13 @@ const SITE = {
   // Wipe Them Out! (its demo is on the same store page)
   "wto-steam": "https://store.steampowered.com/app/5154590/Wipe_Them_Out/",
   "wto-demo": "https://store.steampowered.com/app/5154590/Wipe_Them_Out/",
-  email: "",        // the contact address
+  email: "business@kompoundstudio.com",
   socials: [
-    // ["X", "https://x.com/..."],
-    // ["YouTube", "https://youtube.com/@..."],
-    // ["Discord", "https://discord.gg/..."],
+    ["Discord", "https://discord.gg/k24J522mp6"],
+    ["YouTube", "https://www.youtube.com/@KompoundStudioOfficial"],
+    ["TikTok", "https://www.tiktok.com/@kompoundstudio"],
+    ["Instagram", "https://www.instagram.com/kompound_studio/"],
+    ["X", "https://x.com/Kompound_Studio"],
   ],
 };
 
