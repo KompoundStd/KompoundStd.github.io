@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KompoundStd</title>
+  <meta name="description" content="KompoundStd is an independent game studio. Now making NOT A BUG: Idle Defense, an idle tower defense on a 90s PC.">
+  <meta property="og:title" content="KompoundStd">
+  <meta property="og:description" content="Independent game studio. Now making NOT A BUG: Idle Defense.">
+  <meta property="og:image" content="assets/video/trailer-poster.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="wordmark" href="#top" aria-label="KompoundStd home">Kompound<span>Std</span></a>
+      <nav aria-label="Main">
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- The studio, in one line -->
+    <section class="intro" id="top">
+      <div class="wrap">
+        <p class="eyebrow">Independent game studio</p>
+        <h1>We make strange little games<br>that are hard to put down.</h1>
+      </div>
+    </section>
+
+    <!-- The game -->
+    <section class="game" id="games" aria-labelledby="game-title">
+      <div class="wrap game-grid">
+        <div class="game-copy">
+          <p class="eyebrow">Now in development</p>
+          <h2 id="game-title" class="visually-hidden">NOT A BUG: Idle Defense</h2>
+          <img class="game-logo" src="assets/notabug-logo.png" width="1208" height="288" alt="NOT A BUG: Idle Defense">
+          <p class="tagline">It's not a bug, it's a feature.</p>
+          <p>An idle tower defense on a 90s PC. Malware crawls across your desktop and your programs shoot it down.
+            Buy shortcuts, upgrade everything, fit parts into your PC and type commands into the prompt.
+            Then Format C: and come back stronger.</p>
+          <div class="buttons" data-links>
+            <a class="btn primary" data-link="steam" href="#">Wishlist on Steam</a>
+            <a class="btn" data-link="itch" href="#">Play the demo</a>
+          </div>
+          <p class="platform">Windows · Steam &nbsp;|&nbsp; Free demo in the browser on itch.io</p>
+        </div>
+        <figure class="trailer">
+          <video controls preload="none" playsinline poster="assets/video/trailer-poster.jpg">
+            <source src="assets/video/trailer-720p.mp4" type="video/mp4">
+          </video>
+          <figcaption>Trailer · 0:41</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- What you do in it: the store page's own section headers, each with its clip -->
+    <section class="features" aria-label="Features">
+      <div class="wrap">
+        <article class="feature">
+          <video class="header-strip" src="assets/video/header-agree-and-install.mp4" muted loop playsinline autoplay aria-label="Agree and install"></video>
+          <div class="feature-body">
+            <video class="clip" data-lazy src="assets/video/agree-and-install.mp4" poster="assets/video/agree-and-install-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <div class="feature-text">
+              <h3 class="visually-hidden">Agree and install</h3>
+              <p>Every shortcut on your desktop is a turret. Click Ping.exe, Defrag.exe or Paint.exe to buy another copy
+                and watch it hop into place and start firing.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature">
+          <video class="header-strip" src="assets/video/header-upgrade-both-sides.mp4" muted loop playsinline autoplay aria-label="Upgrade both sides"></video>
+          <div class="feature-body">
+            <video class="clip" data-lazy src="assets/video/upgrades.mp4" poster="assets/video/upgrades-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <div class="feature-text">
+              <h3 class="visually-hidden">Upgrade both sides</h3>
+              <p>Damage, reload, range, crits: every program has its own upgrade tree. And so does the malware.
+                Bigger packs mean more loot.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature">
+          <video class="header-strip" src="assets/video/header-feed-the-bugs.mp4" muted loop playsinline autoplay aria-label="Feed the bugs"></video>
+          <div class="feature-body">
+            <video class="clip" data-lazy src="assets/video/feed-the-bugs.mp4" poster="assets/video/feed-the-bugs-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <div class="feature-text">
+              <h3 class="visually-hidden">Feed the bugs</h3>
+              <p>You let the malware in on purpose. Glitch Beetles, Lag Locusts, Pop-up Wasps and dozens more,
+                each one worth something when it pops.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature">
+          <video class="header-strip" src="assets/video/header-debug.mp4" muted loop playsinline autoplay aria-label="Debug"></video>
+          <div class="feature-body">
+            <video class="clip" data-lazy src="assets/video/debug.mp4" poster="assets/video/debug-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <div class="feature-text">
+              <h3 class="visually-hidden">Debug</h3>
+              <p>Open the Command Prompt and type. FREEZE, BURN, DELTREE: hundreds of bugs gone in one line.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature">
+          <video class="header-strip" src="assets/video/header-already-won.mp4" muted loop playsinline autoplay aria-label="Already won"></video>
+          <div class="feature-body">
+            <video class="clip" data-lazy src="assets/video/already-won.mp4" poster="assets/video/already-won-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <div class="feature-text">
+              <h3 class="visually-hidden">Already won</h3>
+              <p>There's no game over. Whatever gets past your programs melts in the glitch. Leave it running,
+                come back to a fortune.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="shots" aria-labelledby="shots-title">
+      <div class="wrap">
+        <h2 id="shots-title">Screenshots</h2>
+        <ul class="shot-grid">
+          <li><a href="assets/shots/1-early-desktop.jpg"><img src="assets/shots/1-early-desktop-thumb.jpg" width="640" height="360" loading="lazy" alt="An early desktop: four programs shooting the first bugs, Floppy the mascot in the corner"></a></li>
+          <li><a href="assets/shots/2-the-swarm.jpg"><img src="assets/shots/2-the-swarm-thumb.jpg" width="640" height="360" loading="lazy" alt="Hundreds of bugs against stacks of programs on a brick wallpaper"></a></li>
+          <li><a href="assets/shots/3-upgrades.jpg"><img src="assets/shots/3-upgrades-thumb.jpg" width="640" height="360" loading="lazy" alt="The Upgrades window open on Ping.exe"></a></li>
+          <li><a href="assets/shots/4-boss-fight.jpg"><img src="assets/shots/4-boss-fight-thumb.jpg" width="640" height="360" loading="lazy" alt="The SCRNSAVE.EXE boss under fire, its health bar in the End Task window"></a></li>
+          <li><a href="assets/shots/5-commands.jpg"><img src="assets/shots/5-commands-thumb.jpg" width="640" height="360" loading="lazy" alt="FREEZE typed in the Command Prompt, the whole swarm iced"></a></li>
+          <li><a href="assets/shots/6-build-your-pc.jpg"><img src="assets/shots/6-build-your-pc-thumb.jpg" width="640" height="360" loading="lazy" alt="The PC Case window: fitting RAM from the spare parts box"></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- The studio -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="wrap narrow">
+        <h2 id="about-title">About KompoundStd</h2>
+        <p>KompoundStd is a small independent studio. We like games with a joke at their heart and a loop you can't
+          stop poking at. NOT A BUG: Idle Defense is the one we're making now.</p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap narrow">
+        <h2 id="contact-title">Contact</h2>
+        <p data-contact-intro>Press, streamers, or just want to say hi?</p>
+        <ul class="contact-links" data-contact></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <span>© <span data-year>2026</span> KompoundStd</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <div class="lightbox" hidden>
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <img alt="">
+  </div>
+
+  <script src="site.js"></script>
+</body>
+</html>
