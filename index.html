@@ -13,7 +13,7 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira+Stencil+One&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -39,8 +39,75 @@
       </div>
     </section>
 
-    <!-- The game -->
-    <section class="game" id="games" aria-labelledby="game-title">
+    <!-- Our games, at a glance -->
+    <section class="lineup" id="games" aria-labelledby="games-title">
+      <div class="wrap">
+        <h2 id="games-title" class="visually-hidden">Our games</h2>
+        <ul class="lineup-grid">
+          <li>
+            <a class="game-card wto" href="#wipe-them-out">
+              <img src="assets/wipe-them-out/2-the-horde-thumb.jpg" width="640" height="360" alt="">
+              <span class="card-body">
+                <img class="card-logo" src="assets/wipe-them-out/logo.png" width="588" height="593" alt="">
+                <span class="card-text"><strong>Wipe Them Out!</strong><span>Hand-drawn incremental zombie blasting.
+                  Coming 12 January 2027 · Demo out now</span></span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a class="game-card nab" href="#not-a-bug">
+              <img src="assets/shots/2-the-swarm-thumb.jpg" width="640" height="360" alt="">
+              <span class="card-body">
+                <img class="card-logo wide" src="assets/notabug-logo.png" width="1208" height="288" alt="">
+                <span class="card-text"><strong>NOT A BUG: Idle Defense</strong><span>An idle tower defense on a 90s PC.
+                  In development</span></span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Wipe Them Out! -->
+    <section class="game wto-section" id="wipe-them-out" aria-labelledby="wto-title">
+      <div class="wrap game-grid">
+        <div class="game-copy">
+          <p class="eyebrow">Coming 12 January 2027 · Demo out now</p>
+          <h2 id="wto-title" class="visually-hidden">Wipe Them Out!</h2>
+          <img class="wto-logo" src="assets/wipe-them-out/logo.png" width="588" height="593" alt="Wipe Them Out!">
+          <p class="tagline">Hold the wall.</p>
+          <p>A hand-drawn incremental zombie-blasting game. Shoot zombies, collect scrap, and upgrade your weapons and
+            defenses. Face an ever-growing horde as you get stronger with every upgrade, protect your wall, and enjoy
+            tearing through countless zombies.</p>
+          <div class="buttons">
+            <a class="btn primary wto-btn" data-game-link="wto-steam" href="#">Wishlist on Steam</a>
+            <a class="btn" data-game-link="wto-demo" href="#">Free demo on Steam</a>
+          </div>
+          <p class="platform">Windows · Steam</p>
+        </div>
+        <figure class="trailer">
+          <video controls preload="none" playsinline poster="assets/wipe-them-out/trailer-poster.jpg">
+            <source src="assets/wipe-them-out/trailer-720p.mp4" type="video/mp4">
+          </video>
+          <figcaption>Trailer · 0:36</figcaption>
+        </figure>
+      </div>
+      <div class="wrap">
+        <p class="verbs">Aim · Shoot · Survive · Chain lightning · Explosive rounds · Build turrets · Collect scrap ·
+          Upgrade everything · Build up your base · The horde grows</p>
+        <ul class="shot-grid">
+          <li><a href="assets/wipe-them-out/1-the-wall.jpg"><img src="assets/wipe-them-out/1-the-wall-thumb.jpg" width="640" height="360" loading="lazy" alt="Chain lightning arcing through zombies at the wooden wall"></a></li>
+          <li><a href="assets/wipe-them-out/2-the-horde.jpg"><img src="assets/wipe-them-out/2-the-horde-thumb.jpg" width="640" height="360" loading="lazy" alt="Explosions tearing through a packed horde"></a></li>
+          <li><a href="assets/wipe-them-out/3-turrets.jpg"><img src="assets/wipe-them-out/3-turrets-thumb.jpg" width="640" height="360" loading="lazy" alt="A turret's explosive round going off beside the army tents"></a></li>
+          <li><a href="assets/wipe-them-out/4-your-base.jpg"><img src="assets/wipe-them-out/4-your-base-thumb.jpg" width="640" height="360" loading="lazy" alt="The base between runs: medical tent, trucks and supply crates"></a></li>
+          <li><a href="assets/wipe-them-out/5-the-horde-grows.jpg"><img src="assets/wipe-them-out/5-the-horde-grows-thumb.jpg" width="640" height="360" loading="lazy" alt="A huge horde pressing against the wall"></a></li>
+          <li><a href="assets/wipe-them-out/6-the-gate-boss.jpg"><img src="assets/wipe-them-out/6-the-gate-boss-thumb.jpg" width="640" height="360" loading="lazy" alt="The Gate Boss walking up the blood-stained road"></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- NOT A BUG -->
+    <section class="game" id="not-a-bug" aria-labelledby="game-title">
       <div class="wrap game-grid">
         <div class="game-copy">
           <p class="eyebrow">Now in development</p>
@@ -132,7 +199,7 @@
     <!-- Screenshots -->
     <section class="shots" aria-labelledby="shots-title">
       <div class="wrap">
-        <h2 id="shots-title">Screenshots</h2>
+        <h2 id="shots-title" class="visually-hidden">NOT A BUG screenshots</h2>
         <ul class="shot-grid">
           <li><a href="assets/shots/1-early-desktop.jpg"><img src="assets/shots/1-early-desktop-thumb.jpg" width="640" height="360" loading="lazy" alt="An early desktop: four programs shooting the first bugs, Floppy the mascot in the corner"></a></li>
           <li><a href="assets/shots/2-the-swarm.jpg"><img src="assets/shots/2-the-swarm-thumb.jpg" width="640" height="360" loading="lazy" alt="Hundreds of bugs against stacks of programs on a brick wallpaper"></a></li>
@@ -149,7 +216,7 @@
       <div class="wrap narrow">
         <h2 id="about-title">About KompoundStd</h2>
         <p>KompoundStd is a small independent studio. We like games with a joke at their heart and a loop you can't
-          stop poking at. NOT A BUG: Idle Defense is the one we're making now.</p>
+          stop poking at. Our games are Wipe Them Out!, coming to Steam in January 2027, and NOT A BUG: Idle Defense, in development.</p>
       </div>
     </section>
 

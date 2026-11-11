@@ -2,8 +2,12 @@
 // Fill these in and the site updates itself. Leave one empty ("") and its button says "coming soon" or is left out.
 // ------------------------------------------------------------------------------------------------------------------
 const SITE = {
+  // NOT A BUG: Idle Defense
   steam: "",        // the Steam store page, e.g. "https://store.steampowered.com/app/1234560/"
   itch: "",         // the itch.io demo page, e.g. "https://kompoundstd.itch.io/not-a-bug"
+  // Wipe Them Out! (its demo is on the same store page)
+  "wto-steam": "https://store.steampowered.com/app/5154590/Wipe_Them_Out/",
+  "wto-demo": "https://store.steampowered.com/app/5154590/Wipe_Them_Out/",
   email: "",        // the contact address
   socials: [
     // ["X", "https://x.com/..."],
@@ -13,8 +17,8 @@ const SITE = {
 };
 
 // The store and demo buttons.
-document.querySelectorAll("[data-link]").forEach((a) => {
-  const url = SITE[a.dataset.link];
+document.querySelectorAll("[data-link], [data-game-link]").forEach((a) => {
+  const url = SITE[a.dataset.link || a.dataset.gameLink];
   if (url) {
     a.href = url;
     a.target = "_blank";
