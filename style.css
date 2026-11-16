@@ -38,8 +38,8 @@ p { margin: 0 0 1em; }
 /* Header */
 .site-header { position: sticky; top: 0; z-index: 5; background: rgba(11, 12, 16, .82); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
 .header-row { display: flex; align-items: center; justify-content: space-between; height: 64px; }
-.wordmark { font: 700 22px/1 "Space Grotesk", sans-serif; color: var(--text); text-decoration: none; letter-spacing: -.01em; }
-.wordmark span { color: var(--accent); }
+.wordmark { display: flex; align-items: center; text-decoration: none; }
+.wordmark img { width: auto; height: 40px; }
 nav { display: flex; gap: 22px; }
 nav a { color: var(--muted); text-decoration: none; font-weight: 500; font-size: 15px; }
 nav a:hover, nav a:focus-visible { color: var(--text); }
@@ -47,6 +47,7 @@ nav a:hover, nav a:focus-visible { color: var(--text); }
 /* Studio intro */
 .intro { padding: 88px 0 40px; }
 .intro h1 { font-size: clamp(34px, 5.4vw, 64px); letter-spacing: -.02em; max-width: 15em; margin: 0; }
+.nowrap { white-space: nowrap; }
 
 /* The game */
 .game { padding: 40px 0 72px; }
@@ -114,7 +115,7 @@ nav a:hover, nav a:focus-visible { color: var(--text); }
   .feature { padding: 40px 0; }
 }
 @media (max-width: 520px) {
-  .wordmark { font-size: 19px; }
+  .wordmark img { height: 36px; }
   nav { gap: 12px; }
   nav a { font-size: 14px; }
   .shot-grid { grid-template-columns: 1fr; }
@@ -148,8 +149,7 @@ nav a:hover, nav a:focus-visible { color: var(--text); }
 .btn.primary.wto-btn { background: var(--blood); border-color: var(--blood); color: #fff; }
 .btn.primary.wto-btn:hover, .btn.primary.wto-btn:focus-visible { background: #e8524a; border-color: #e8524a; }
 .wto-section .btn:not(.wto-btn):hover, .wto-section .btn:not(.wto-btn):focus-visible { border-color: var(--blood); }
-.verbs { font-family: "Saira Stencil One", "Space Grotesk", sans-serif; color: #cfc8bd; font-size: 17px; letter-spacing: .04em; text-transform: uppercase; margin: 40px 0 0; }
-.wto-section .shot-grid { margin-top: 20px; }
+.wto-section .shot-grid { margin-top: 48px; }
 #not-a-bug { border-top: 1px solid var(--line); padding-top: 72px; }
 
 @media (max-width: 860px) {

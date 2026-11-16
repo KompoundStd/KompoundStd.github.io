@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KompoundStd</title>
+  <title>Kompound Studio</title>
   <meta name="description" content="KompoundStd is an independent game studio. Now making NOT A BUG: Idle Defense, an idle tower defense on a 90s PC.">
   <meta property="og:title" content="KompoundStd">
   <meta property="og:description" content="Independent game studio. Now making NOT A BUG: Idle Defense.">
   <meta property="og:image" content="assets/video/trailer-poster.jpg">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/favicon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira+Stencil+One&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -21,7 +23,7 @@
 
   <header class="site-header">
     <div class="wrap header-row">
-      <a class="wordmark" href="#top" aria-label="KompoundStd home">Kompound<span>Std</span></a>
+      <a class="wordmark" href="#top"><img src="assets/kompound-logo.png" width="143" height="160" alt="Kompound Studio"></a>
       <nav aria-label="Main">
         <a href="#games">Games</a>
         <a href="#about">About</a>
@@ -35,7 +37,7 @@
     <section class="intro" id="top">
       <div class="wrap">
         <p class="eyebrow">Independent game studio</p>
-        <h1>We make strange little games<br>that are hard to put down.</h1>
+        <h1>We're Kompound Studio, a <span class="nowrap">two-person</span> team made up of an artist and a developer.</h1>
       </div>
     </section>
 
@@ -49,8 +51,8 @@
               <img src="assets/wipe-them-out/2-the-horde-thumb.jpg" width="640" height="360" alt="">
               <span class="card-body">
                 <img class="card-logo" src="assets/wipe-them-out/logo.png" width="588" height="593" alt="">
-                <span class="card-text"><strong>Wipe Them Out!</strong><span>Hand-drawn incremental zombie blasting.
-                  Coming 12 January 2027 · Demo out now</span></span>
+                <span class="card-text"><strong>Wipe Them Out!</strong><span>Hand-drawn incremental zombie-blasting.
+                  Coming 13 January 2027 · Demo out now</span></span>
               </span>
             </a>
           </li>
@@ -59,7 +61,7 @@
               <img src="assets/shots/2-the-swarm-thumb.jpg" width="640" height="360" alt="">
               <span class="card-body">
                 <img class="card-logo wide" src="assets/notabug-logo.png" width="1208" height="288" alt="">
-                <span class="card-text"><strong>NOT A BUG: Idle Defense</strong><span>An idle tower defense on a 90s PC.
+                <span class="card-text"><strong>NOT A BUG: Idle Defense</strong><span>A relaxing idle defense game where you can't lose.
                   In development</span></span>
               </span>
             </a>
@@ -72,13 +74,13 @@
     <section class="game wto-section" id="wipe-them-out" aria-labelledby="wto-title">
       <div class="wrap game-grid">
         <div class="game-copy">
-          <p class="eyebrow">Coming 12 January 2027 · Demo out now</p>
+          <p class="eyebrow">Coming 13 January 2027 · Demo out now</p>
           <h2 id="wto-title" class="visually-hidden">Wipe Them Out!</h2>
           <img class="wto-logo" src="assets/wipe-them-out/logo.png" width="588" height="593" alt="Wipe Them Out!">
           <p class="tagline">Hold the wall.</p>
-          <p>A hand-drawn incremental zombie-blasting game. Shoot zombies, collect scrap, and upgrade your weapons and
-            defenses. Face an ever-growing horde as you get stronger with every upgrade, protect your wall, and enjoy
-            tearing through countless zombies.</p>
+          <p>Wipe Them Out! is a hand-drawn incremental zombie-blasting game. Shoot zombies, collect scrap, and upgrade
+            your weapons and defenses. Face an increasingly powerful horde as you grow stronger with every upgrade.
+            Protect your wall and enjoy the satisfaction of tearing through countless zombies.</p>
           <div class="buttons">
             <a class="btn primary wto-btn" data-game-link="wto-steam" href="#">Wishlist on Steam</a>
             <a class="btn" data-game-link="wto-demo" href="#">Free demo on Steam</a>
@@ -93,8 +95,6 @@
         </figure>
       </div>
       <div class="wrap">
-        <p class="verbs">Aim · Shoot · Survive · Chain lightning · Explosive rounds · Build turrets · Collect scrap ·
-          Upgrade everything · Build up your base · The horde grows</p>
         <ul class="shot-grid">
           <li><a href="assets/wipe-them-out/1-the-wall.jpg"><img src="assets/wipe-them-out/1-the-wall-thumb.jpg" width="640" height="360" loading="lazy" alt="Chain lightning arcing through zombies at the wooden wall"></a></li>
           <li><a href="assets/wipe-them-out/2-the-horde.jpg"><img src="assets/wipe-them-out/2-the-horde-thumb.jpg" width="640" height="360" loading="lazy" alt="Explosions tearing through a packed horde"></a></li>
@@ -114,9 +114,8 @@
           <h2 id="game-title" class="visually-hidden">NOT A BUG: Idle Defense</h2>
           <img class="game-logo" src="assets/notabug-logo.png" width="1208" height="288" alt="NOT A BUG: Idle Defense">
           <p class="tagline">It's not a bug, it's a feature.</p>
-          <p>An idle tower defense on a 90s PC. Malware crawls across your desktop and your programs shoot it down.
-            Buy shortcuts, upgrade everything, fit parts into your PC and type commands into the prompt.
-            Then Format C: and come back stronger.</p>
+          <p>Not a Bug is a relaxing incremental idle defense game. You can't lose, since every bug dies the moment it
+            reaches the glitch. Install apps, feed the bugs and watch the chaos. Remember: it's not a bug, it's a feature.</p>
           <div class="buttons" data-links>
             <a class="btn primary" data-link="steam" href="#">Wishlist on Steam</a>
             <a class="btn" data-link="itch" href="#">Play the demo</a>
@@ -136,13 +135,23 @@
     <section class="features" aria-label="Features">
       <div class="wrap">
         <article class="feature">
+          <video class="header-strip" src="assets/video/header-already-won.mp4" muted loop playsinline autoplay aria-label="Already won"></video>
+          <div class="feature-body">
+            <video class="clip" data-lazy src="assets/video/already-won.mp4" poster="assets/video/already-won-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
+            <div class="feature-text">
+              <h3 class="visually-hidden">Already won</h3>
+              <p>This is an idle defense game where you can't lose. Every bug dies the moment it reaches the glitch. Play with zero stress.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature">
           <video class="header-strip" src="assets/video/header-agree-and-install.mp4" muted loop playsinline autoplay aria-label="Agree and install"></video>
           <div class="feature-body">
             <video class="clip" data-lazy src="assets/video/agree-and-install.mp4" poster="assets/video/agree-and-install-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
             <div class="feature-text">
               <h3 class="visually-hidden">Agree and install</h3>
-              <p>Every shortcut on your desktop is a turret. Click Ping.exe, Defrag.exe or Paint.exe to buy another copy
-                and watch it hop into place and start firing.</p>
+              <p>Next, next... accept and install. Build your army with shortcuts.</p>
             </div>
           </div>
         </article>
@@ -153,20 +162,7 @@
             <video class="clip" data-lazy src="assets/video/upgrades.mp4" poster="assets/video/upgrades-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
             <div class="feature-text">
               <h3 class="visually-hidden">Upgrade both sides</h3>
-              <p>Damage, reload, range, crits: every program has its own upgrade tree. And so does the malware.
-                Bigger packs mean more loot.</p>
-            </div>
-          </div>
-        </article>
-
-        <article class="feature">
-          <video class="header-strip" src="assets/video/header-feed-the-bugs.mp4" muted loop playsinline autoplay aria-label="Feed the bugs"></video>
-          <div class="feature-body">
-            <video class="clip" data-lazy src="assets/video/feed-the-bugs.mp4" poster="assets/video/feed-the-bugs-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
-            <div class="feature-text">
-              <h3 class="visually-hidden">Feed the bugs</h3>
-              <p>You let the malware in on purpose. Glitch Beetles, Lag Locusts, Pop-up Wasps and dozens more,
-                each one worth something when it pops.</p>
+              <p>Since bugs can't hurt you, you can upgrade them to earn more. Invest in your enemy, it pays off.</p>
             </div>
           </div>
         </article>
@@ -177,19 +173,7 @@
             <video class="clip" data-lazy src="assets/video/debug.mp4" poster="assets/video/debug-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
             <div class="feature-text">
               <h3 class="visually-hidden">Debug</h3>
-              <p>Open the Command Prompt and type. FREEZE, BURN, DELTREE: hundreds of bugs gone in one line.</p>
-            </div>
-          </div>
-        </article>
-
-        <article class="feature">
-          <video class="header-strip" src="assets/video/header-already-won.mp4" muted loop playsinline autoplay aria-label="Already won"></video>
-          <div class="feature-body">
-            <video class="clip" data-lazy src="assets/video/already-won.mp4" poster="assets/video/already-won-poster.jpg" muted loop playsinline preload="none" aria-hidden="true"></video>
-            <div class="feature-text">
-              <h3 class="visually-hidden">Already won</h3>
-              <p>There's no game over. Whatever gets past your programs melts in the glitch. Leave it running,
-                come back to a fortune.</p>
+              <p>Hundreds of bugs vanish at once while you sit back. Zero stress, just a clean desktop.</p>
             </div>
           </div>
         </article>
@@ -214,9 +198,9 @@
     <!-- The studio -->
     <section class="about" id="about" aria-labelledby="about-title">
       <div class="wrap narrow">
-        <h2 id="about-title">About KompoundStd</h2>
-        <p>KompoundStd is a small independent studio. We like games with a joke at their heart and a loop you can't
-          stop poking at. Our games are Wipe Them Out!, coming to Steam in January 2027, and NOT A BUG: Idle Defense, in development.</p>
+        <h2 id="about-title">About Kompound Studio</h2>
+        <p>We're Kompound Studio, a two-person team made up of an artist and a developer. Our games are Wipe Them Out!,
+          coming to Steam on 13 January 2027, and Not a Bug: Idle Defense, currently in development.</p>
       </div>
     </section>
 
